@@ -9,8 +9,8 @@
 #ifndef SearchV3Demo_APIKey_h
 #define SearchV3Demo_APIKey_h
 
-/* 使用高德SearchV3, 请首先注册APIKey, 注册APIKey请参考 http://api.amap.com
+/* 使用高德地图, 请首先注册APIKey, 注册APIKey请参考 http://api.amap.com
  */
-const static NSString *APIKey = @"3afc9b62a21737afffd080bf4f53cbcc";
+const static NSString *APIKey = @"高德获取的APIKey";
 
 #endif
