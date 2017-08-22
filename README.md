@@ -36,15 +36,15 @@ if (isOverlayWithLineWidthContainsPoint(selectableOverlay.overlay, mapPointDista
 
 * `<UIViewController>`
 
-  * `BaseMapViewController 地图基类`
+    * `BaseMapViewController 地图基类`
   
-   *  `ClickOverlayViewController 点击选中overlay`
+      *  `ClickOverlayViewController 点击选中overlay`
    
 **Models**
 
 * `Conform to <MAOverlay>`
 
-    * `SelectableOverlay 自定义可选中的overlay(记录overlay选中状态,颜色属性)`
+      * `SelectableOverlay 自定义可选中的overlay(记录overlay选中状态,颜色属性)`
     
 **Utility**
 
