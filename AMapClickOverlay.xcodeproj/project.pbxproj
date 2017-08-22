@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56E67544E47F96012BA6779A /* libPods-AMapClickOverlayUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606F7F0C1C3689ED88414F20 /* libPods-AMapClickOverlayUITests.a */; };
+		8100BE22BEE17A5481EBA737 /* libPods-AMapClickOverlayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62609FA89C863936F3E7F6C /* libPods-AMapClickOverlayTests.a */; };
+		8AA75A3C461D6D74C9B73D5B /* libPods-AMapClickOverlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC981503DE043BD1FF12BF6 /* libPods-AMapClickOverlay.a */; };
+		E4FA5FF31F4B09CB005212EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA5FF21F4B09CB005212EC /* main.m */; };
+		E4FA5FF61F4B09CB005212EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA5FF51F4B09CB005212EC /* AppDelegate.m */; };
+		E4FA5FFC1F4B09CB005212EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FA5FFA1F4B09CB005212EC /* Main.storyboard */; };
+		E4FA5FFE1F4B09CB005212EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FA5FFD1F4B09CB005212EC /* Assets.xcassets */; };
+		E4FA60011F4B09CB005212EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FA5FFF1F4B09CB005212EC /* LaunchScreen.storyboard */; };
+		E4FA600C1F4B09CB005212EC /* AMapClickOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA600B1F4B09CB005212EC /* AMapClickOverlayTests.m */; };
+		E4FA60171F4B09CB005212EC /* AMapClickOverlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA60161F4B09CB005212EC /* AMapClickOverlayUITests.m */; };
+		E4FA602B1F4B0A6E005212EC /* SelectableOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA60281F4B0A6E005212EC /* SelectableOverlay.m */; };
+		E4FA602C1F4B0A6E005212EC /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA602A1F4B0A6E005212EC /* Utility.m */; };
+		E4FA60321F4B0AD7005212EC /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA602F1F4B0AD7005212EC /* BaseMapViewController.m */; };
+		E4FA60331F4B0AD7005212EC /* ClickOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FA60311F4B0AD7005212EC /* ClickOverlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4FA60081F4B09CB005212EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FA5FE61F4B09CB005212EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FA5FED1F4B09CB005212EC;
+			remoteInfo = AMapClickOverlay;
+		};
+		E4FA60131F4B09CB005212EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FA5FE61F4B09CB005212EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FA5FED1F4B09CB005212EC;
+			remoteInfo = AMapClickOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC981503DE043BD1FF12BF6 /* libPods-AMapClickOverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMapClickOverlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EC87EADA5771E641D17366 /* Pods-AMapClickOverlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapClickOverlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapClickOverlayTests/Pods-AMapClickOverlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		606F7F0C1C3689ED88414F20 /* libPods-AMapClickOverlayUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMapClickOverlayUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D81BEEDA3E816D3D060CA7 /* Pods-AMapClickOverlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapClickOverlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapClickOverlay/Pods-AMapClickOverlay.debug.xcconfig"; sourceTree = "<group>"; };
+		7977992D7CB66A97CA64F427 /* Pods-AMapClickOverlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapClickOverlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapClickOverlayUITests/Pods-AMapClickOverlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		946FB5D84B450C3857568AA9 /* Pods-AMapClickOverlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapClickOverlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapClickOverlayUITests/Pods-AMapClickOverlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CFABA89D980357E259827A7 /* Pods-AMapClickOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapClickOverlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapClickOverlay/Pods-AMapClickOverlay.release.xcconfig"; sourceTree = "<group>"; };
+		C62609FA89C863936F3E7F6C /* libPods-AMapClickOverlayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMapClickOverlayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA5FEE1F4B09CB005212EC /* AMapClickOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMapClickOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA5FF21F4B09CB005212EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4FA5FF41F4B09CB005212EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4FA5FF51F4B09CB005212EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4FA5FFB1F4B09CB005212EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4FA5FFD1F4B09CB005212EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4FA60001F4B09CB005212EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4FA60021F4B09CB005212EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FA60071F4B09CB005212EC /* AMapClickOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMapClickOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA600B1F4B09CB005212EC /* AMapClickOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMapClickOverlayTests.m; sourceTree = "<group>"; };
+		E4FA600D1F4B09CB005212EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FA60121F4B09CB005212EC /* AMapClickOverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMapClickOverlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA60161F4B09CB005212EC /* AMapClickOverlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMapClickOverlayUITests.m; sourceTree = "<group>"; };
+		E4FA60181F4B09CB005212EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FA60261F4B0A3E005212EC /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		E4FA60271F4B0A6E005212EC /* SelectableOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableOverlay.h; sourceTree = "<group>"; };
+		E4FA60281F4B0A6E005212EC /* SelectableOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableOverlay.m; sourceTree = "<group>"; };
+		E4FA60291F4B0A6E005212EC /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		E4FA602A1F4B0A6E005212EC /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		E4FA602E1F4B0AD7005212EC /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		E4FA602F1F4B0AD7005212EC /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		E4FA60301F4B0AD7005212EC /* ClickOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickOverlayViewController.h; sourceTree = "<group>"; };
+		E4FA60311F4B0AD7005212EC /* ClickOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickOverlayViewController.m; sourceTree = "<group>"; };
+		FD52E9E6259041EE6922FAAC /* Pods-AMapClickOverlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapClickOverlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapClickOverlayTests/Pods-AMapClickOverlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4FA5FEB1F4B09CB005212EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA75A3C461D6D74C9B73D5B /* libPods-AMapClickOverlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA60041F4B09CB005212EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8100BE22BEE17A5481EBA737 /* libPods-AMapClickOverlayTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA600F1F4B09CB005212EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E67544E47F96012BA6779A /* libPods-AMapClickOverlayUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89B12817968665F97CAC50E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77D81BEEDA3E816D3D060CA7 /* Pods-AMapClickOverlay.debug.xcconfig */,
+				9CFABA89D980357E259827A7 /* Pods-AMapClickOverlay.release.xcconfig */,
+				FD52E9E6259041EE6922FAAC /* Pods-AMapClickOverlayTests.debug.xcconfig */,
+				43EC87EADA5771E641D17366 /* Pods-AMapClickOverlayTests.release.xcconfig */,
+				7977992D7CB66A97CA64F427 /* Pods-AMapClickOverlayUITests.debug.xcconfig */,
+				946FB5D84B450C3857568AA9 /* Pods-AMapClickOverlayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB7E598B52732EA947DE4DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC981503DE043BD1FF12BF6 /* libPods-AMapClickOverlay.a */,
+				C62609FA89C863936F3E7F6C /* libPods-AMapClickOverlayTests.a */,
+				606F7F0C1C3689ED88414F20 /* libPods-AMapClickOverlayUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4FA5FE51F4B09CB005212EC = {
+			isa = PBXGroup;
+			children = (
+				E4FA5FF01F4B09CB005212EC /* AMapClickOverlay */,
+				E4FA600A1F4B09CB005212EC /* AMapClickOverlayTests */,
+				E4FA60151F4B09CB005212EC /* AMapClickOverlayUITests */,
+				E4FA5FEF1F4B09CB005212EC /* Products */,
+				89B12817968665F97CAC50E4 /* Pods */,
+				AB7E598B52732EA947DE4DB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4FA5FEF1F4B09CB005212EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA5FEE1F4B09CB005212EC /* AMapClickOverlay.app */,
+				E4FA60071F4B09CB005212EC /* AMapClickOverlayTests.xctest */,
+				E4FA60121F4B09CB005212EC /* AMapClickOverlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4FA5FF01F4B09CB005212EC /* AMapClickOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA5FF41F4B09CB005212EC /* AppDelegate.h */,
+				E4FA5FF51F4B09CB005212EC /* AppDelegate.m */,
+				E4FA60241F4B0A35005212EC /* ClickOverlay */,
+				E4FA602D1F4B0AD0005212EC /* Class */,
+				E4FA60251F4B0A35005212EC /* Configuration */,
+				E4FA5FFA1F4B09CB005212EC /* Main.storyboard */,
+				E4FA5FFD1F4B09CB005212EC /* Assets.xcassets */,
+				E4FA5FFF1F4B09CB005212EC /* LaunchScreen.storyboard */,
+				E4FA60021F4B09CB005212EC /* Info.plist */,
+				E4FA5FF11F4B09CB005212EC /* Supporting Files */,
+			);
+			path = AMapClickOverlay;
+			sourceTree = "<group>";
+		};
+		E4FA5FF11F4B09CB005212EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA5FF21F4B09CB005212EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4FA600A1F4B09CB005212EC /* AMapClickOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA600B1F4B09CB005212EC /* AMapClickOverlayTests.m */,
+				E4FA600D1F4B09CB005212EC /* Info.plist */,
+			);
+			path = AMapClickOverlayTests;
+			sourceTree = "<group>";
+		};
+		E4FA60151F4B09CB005212EC /* AMapClickOverlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA60161F4B09CB005212EC /* AMapClickOverlayUITests.m */,
+				E4FA60181F4B09CB005212EC /* Info.plist */,
+			);
+			path = AMapClickOverlayUITests;
+			sourceTree = "<group>";
+		};
+		E4FA60241F4B0A35005212EC /* ClickOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA60271F4B0A6E005212EC /* SelectableOverlay.h */,
+				E4FA60281F4B0A6E005212EC /* SelectableOverlay.m */,
+				E4FA60291F4B0A6E005212EC /* Utility.h */,
+				E4FA602A1F4B0A6E005212EC /* Utility.m */,
+			);
+			path = ClickOverlay;
+			sourceTree = "<group>";
+		};
+		E4FA60251F4B0A35005212EC /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA60261F4B0A3E005212EC /* APIKey.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E4FA602D1F4B0AD0005212EC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA602E1F4B0AD7005212EC /* BaseMapViewController.h */,
+				E4FA602F1F4B0AD7005212EC /* BaseMapViewController.m */,
+				E4FA60301F4B0AD7005212EC /* ClickOverlayViewController.h */,
+				E4FA60311F4B0AD7005212EC /* ClickOverlayViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4FA5FED1F4B09CB005212EC /* AMapClickOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FA601B1F4B09CB005212EC /* Build configuration list for PBXNativeTarget "AMapClickOverlay" */;
+			buildPhases = (
+				2D956862E2931A19F9E72A40 /* [CP] Check Pods Manifest.lock */,
+				E4FA5FEA1F4B09CB005212EC /* Sources */,
+				E4FA5FEB1F4B09CB005212EC /* Frameworks */,
+				E4FA5FEC1F4B09CB005212EC /* Resources */,
+				7D42EF05AE7D9F0E0EE3EF99 /* [CP] Embed Pods Frameworks */,
+				CA0AF45EC66C855D65ABC347 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMapClickOverlay;
+			productName = AMapClickOverlay;
+			productReference = E4FA5FEE1F4B09CB005212EC /* AMapClickOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4FA60061F4B09CB005212EC /* AMapClickOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FA601E1F4B09CB005212EC /* Build configuration list for PBXNativeTarget "AMapClickOverlayTests" */;
+			buildPhases = (
+				53565B281DF7C649B163B7A1 /* [CP] Check Pods Manifest.lock */,
+				E4FA60031F4B09CB005212EC /* Sources */,
+				E4FA60041F4B09CB005212EC /* Frameworks */,
+				E4FA60051F4B09CB005212EC /* Resources */,
+				22CDA311177FD0F77FBFEE65 /* [CP] Embed Pods Frameworks */,
+				EA83D4404F0C4FE9CA73808A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FA60091F4B09CB005212EC /* PBXTargetDependency */,
+			);
+			name = AMapClickOverlayTests;
+			productName = AMapClickOverlayTests;
+			productReference = E4FA60071F4B09CB005212EC /* AMapClickOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4FA60111F4B09CB005212EC /* AMapClickOverlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FA60211F4B09CB005212EC /* Build configuration list for PBXNativeTarget "AMapClickOverlayUITests" */;
+			buildPhases = (
+				FBA032F0B279BC665E941BD1 /* [CP] Check Pods Manifest.lock */,
+				E4FA600E1F4B09CB005212EC /* Sources */,
+				E4FA600F1F4B09CB005212EC /* Frameworks */,
+				E4FA60101F4B09CB005212EC /* Resources */,
+				3D02F8C60F60923E0EC46DD5 /* [CP] Embed Pods Frameworks */,
+				34DBA7926CDE3AFFE3BF6B74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FA60141F4B09CB005212EC /* PBXTargetDependency */,
+			);
+			name = AMapClickOverlayUITests;
+			productName = AMapClickOverlayUITests;
+			productReference = E4FA60121F4B09CB005212EC /* AMapClickOverlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4FA5FE61F4B09CB005212EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CaptainSir;
+				TargetAttributes = {
+					E4FA5FED1F4B09CB005212EC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5TU5547C6N;
+						ProvisioningStyle = Automatic;
+					};
+					E4FA60061F4B09CB005212EC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5TU5547C6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4FA5FED1F4B09CB005212EC;
+					};
+					E4FA60111F4B09CB005212EC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5TU5547C6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4FA5FED1F4B09CB005212EC;
+					};
+				};
+			};
+			buildConfigurationList = E4FA5FE91F4B09CB005212EC /* Build configuration list for PBXProject "AMapClickOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4FA5FE51F4B09CB005212EC;
+			productRefGroup = E4FA5FEF1F4B09CB005212EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4FA5FED1F4B09CB005212EC /* AMapClickOverlay */,
+				E4FA60061F4B09CB005212EC /* AMapClickOverlayTests */,
+				E4FA60111F4B09CB005212EC /* AMapClickOverlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4FA5FEC1F4B09CB005212EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FA60011F4B09CB005212EC /* LaunchScreen.storyboard in Resources */,
+				E4FA5FFE1F4B09CB005212EC /* Assets.xcassets in Resources */,
+				E4FA5FFC1F4B09CB005212EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA60051F4B09CB005212EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA60101F4B09CB005212EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22CDA311177FD0F77FBFEE65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapClickOverlayTests/Pods-AMapClickOverlayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D956862E2931A19F9E72A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34DBA7926CDE3AFFE3BF6B74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapClickOverlayUITests/Pods-AMapClickOverlayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D02F8C60F60923E0EC46DD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapClickOverlayUITests/Pods-AMapClickOverlayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53565B281DF7C649B163B7A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D42EF05AE7D9F0E0EE3EF99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapClickOverlay/Pods-AMapClickOverlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0AF45EC66C855D65ABC347 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapClickOverlay/Pods-AMapClickOverlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA83D4404F0C4FE9CA73808A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapClickOverlayTests/Pods-AMapClickOverlayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA032F0B279BC665E941BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4FA5FEA1F4B09CB005212EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FA602B1F4B0A6E005212EC /* SelectableOverlay.m in Sources */,
+				E4FA60321F4B0AD7005212EC /* BaseMapViewController.m in Sources */,
+				E4FA602C1F4B0A6E005212EC /* Utility.m in Sources */,
+				E4FA5FF61F4B09CB005212EC /* AppDelegate.m in Sources */,
+				E4FA60331F4B0AD7005212EC /* ClickOverlayViewController.m in Sources */,
+				E4FA5FF31F4B09CB005212EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA60031F4B09CB005212EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FA600C1F4B09CB005212EC /* AMapClickOverlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA600E1F4B09CB005212EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FA60171F4B09CB005212EC /* AMapClickOverlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4FA60091F4B09CB005212EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FA5FED1F4B09CB005212EC /* AMapClickOverlay */;
+			targetProxy = E4FA60081F4B09CB005212EC /* PBXContainerItemProxy */;
+		};
+		E4FA60141F4B09CB005212EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FA5FED1F4B09CB005212EC /* AMapClickOverlay */;
+			targetProxy = E4FA60131F4B09CB005212EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4FA5FFA1F4B09CB005212EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FA5FFB1F4B09CB005212EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4FA5FFF1F4B09CB005212EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FA60001F4B09CB005212EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4FA60191F4B09CB005212EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4FA601A1F4B09CB005212EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4FA601C1F4B09CB005212EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D81BEEDA3E816D3D060CA7 /* Pods-AMapClickOverlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				INFOPLIST_FILE = AMapClickOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengbo.AMapClickOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4FA601D1F4B09CB005212EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFABA89D980357E259827A7 /* Pods-AMapClickOverlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				INFOPLIST_FILE = AMapClickOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengbo.AMapClickOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4FA601F1F4B09CB005212EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD52E9E6259041EE6922FAAC /* Pods-AMapClickOverlayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				INFOPLIST_FILE = AMapClickOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengbo.AMapClickOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMapClickOverlay.app/AMapClickOverlay";
+			};
+			name = Debug;
+		};
+		E4FA60201F4B09CB005212EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EC87EADA5771E641D17366 /* Pods-AMapClickOverlayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				INFOPLIST_FILE = AMapClickOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengbo.AMapClickOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMapClickOverlay.app/AMapClickOverlay";
+			};
+			name = Release;
+		};
+		E4FA60221F4B09CB005212EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7977992D7CB66A97CA64F427 /* Pods-AMapClickOverlayUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				INFOPLIST_FILE = AMapClickOverlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengbo.AMapClickOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMapClickOverlay;
+			};
+			name = Debug;
+		};
+		E4FA60231F4B09CB005212EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946FB5D84B450C3857568AA9 /* Pods-AMapClickOverlayUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				INFOPLIST_FILE = AMapClickOverlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengbo.AMapClickOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMapClickOverlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4FA5FE91F4B09CB005212EC /* Build configuration list for PBXProject "AMapClickOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA60191F4B09CB005212EC /* Debug */,
+				E4FA601A1F4B09CB005212EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FA601B1F4B09CB005212EC /* Build configuration list for PBXNativeTarget "AMapClickOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA601C1F4B09CB005212EC /* Debug */,
+				E4FA601D1F4B09CB005212EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FA601E1F4B09CB005212EC /* Build configuration list for PBXNativeTarget "AMapClickOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA601F1F4B09CB005212EC /* Debug */,
+				E4FA60201F4B09CB005212EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FA60211F4B09CB005212EC /* Build configuration list for PBXNativeTarget "AMapClickOverlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA60221F4B09CB005212EC /* Debug */,
+				E4FA60231F4B09CB005212EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4FA5FE61F4B09CB005212EC /* Project object */;
+}
